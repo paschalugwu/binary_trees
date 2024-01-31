@@ -7,7 +7,7 @@
             ],
             "defines": [],
             "cStandard": "gnu89",
-            "compilerPath": ""
+            "compilerPath": "/usr/bin/gcc"
         }
     ],
     "version": 4
