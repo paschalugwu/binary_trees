@@ -1,6 +1,12 @@
 #include "binary_trees.h"
 #include <stdlib.h>
 
+int heap_extract(heap_t **root);
+void heapify(heap_t *root);
+void _preorder(heap_t *tree, heap_t **node, size_t height);
+size_t tree_size_h(const binary_tree_t *tree);
+size_t tree_height(const heap_t *tree);
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 /**
  * binary_tree_node - Funtion that creates a new node.
  * @parent: pointer to the node's parent.
