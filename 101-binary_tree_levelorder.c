@@ -8,8 +8,8 @@
  */
 typedef struct levelorder_queue_s
 {
-    struct binary_tree_s *node;
-    struct levelorder_queue_s *next;
+	struct binary_tree_s *node;
+	struct levelorder_queue_s *next;
 } levelorder_queue_t;
 
 levelorder_queue_t *create_node(binary_tree_t *node);
